@@ -8,12 +8,11 @@
 <body>
   <p id="name"></p>
 </body>
-<script src="../umd/index.js"></script>
+<script src="../dist/index.js"></script>
 <script>
-  const str = zeroStr.encodeZeroWidth("石松岩", "大帅比")
+  const str = zeroStr.encodeZeroWidth("正文内容", "hello,world!")
   const name = document.querySelector("#name")
   name.innerText = str
-
 
   const text = zeroStr.decodeZeroWidth(str)
   console.log(text);
