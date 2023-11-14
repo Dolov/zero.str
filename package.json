@@ -1,12 +1,27 @@
 {
   "name": "zero.str",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Handling zero width characters in JavaScript.",
+  "module": "lib/index.js",
+  "files": ["dist", "lib"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "build": "babel ./src -d ./dist --copy-files --extensions '.ts' && tsc",
+    "dev": "babel ./src -d ./dist --copy-files --extensions '.ts' -w",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "typescript": "^5.2.2",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.3",
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-typescript": "^7.23.3"
+  }
 }

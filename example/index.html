@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <p id="name"></p>
+</body>
+<script src="../umd/index.js"></script>
+<script>
+  const str = zeroStr.encodeZeroWidth("石松岩", "大帅比")
+  const name = document.querySelector("#name")
+  name.innerText = str
+
+
+  const text = zeroStr.decodeZeroWidth(str)
+  console.log(text);
+</script>
+</html>
