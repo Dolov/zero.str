@@ -1,6 +1,6 @@
 {
   "name": "zero.str",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Handling zero width characters in JavaScript.",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
