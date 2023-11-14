@@ -14,16 +14,19 @@
     "dev": "babel ./src -d ./dist --copy-files --extensions '.ts' -w",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "url": "https://github.com/Dolov/zero.str"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "jest": "^29.7.0",
-    "typescript": "^5.2.2",
-    "@babel/cli": "^7.23.0",
-    "@babel/core": "^7.23.3",
-    "@babel/preset-env": "^7.23.3",
-    "@babel/preset-typescript": "^7.23.3"
+    "jest": "29.7.0",
+    "typescript": "5.2.2",
+    "@babel/cli": "7.23.0",
+    "@babel/core": "7.23.3",
+    "@babel/preset-env": "7.23.3",
+    "@babel/preset-typescript": "7.23.3"
   }
 }
