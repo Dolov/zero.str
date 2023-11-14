@@ -1,9 +1,12 @@
 {
   "name": "zero.str",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Handling zero width characters in JavaScript.",
   "module": "lib/index.js",
-  "files": ["dist", "lib"],
+  "files": [
+    "dist",
+    "lib"
+  ],
   "scripts": {
     "test": "jest",
     "build": "babel ./src -d ./dist --copy-files --extensions '.ts' && tsc",
@@ -13,9 +16,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    
-  },
+  "dependencies": {},
   "devDependencies": {
     "jest": "^29.7.0",
     "typescript": "^5.2.2",
