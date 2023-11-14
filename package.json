@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Handling zero width characters in JavaScript.",
   "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "files": [
     "dist",
     "lib"
